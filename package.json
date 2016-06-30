@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/qq645381995/npmCrazyAir/issues"
   },
-  "homepage": "https://github.com/qq645381995/npmCrazyAir#readme"
+  "homepage": "https://github.com/qq645381995/npmCrazyAir#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
 }
