@@ -1,0 +1,22 @@
+{
+  "name": "npmcrazyair",
+  "version": "1.0.0",
+  "description": "hhh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq645381995/npmCrazyAir.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "dmeo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qq645381995/npmCrazyAir/issues"
+  },
+  "homepage": "https://github.com/qq645381995/npmCrazyAir#readme"
+}

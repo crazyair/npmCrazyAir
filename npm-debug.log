@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '--tag',
+1 verbose cli   'hhh@0.1.0' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'c:\\Users\\1\\Desktop\\npm\\npmCrazyAir',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\1\AppData\Roaming\npm-cache\npmcrazyair\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle npmcrazyair@1.0.0~prepublish: npmcrazyair@1.0.0
+11 silly lifecycle npmcrazyair@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\1\\AppData\\Roaming\\npm-cache\\npmcrazyair\\1.0.0\\package.tgz',
+12 verbose tar pack   'c:\\Users\\1\\Desktop\\npm\\npmCrazyAir' ]
+13 verbose tarball C:\Users\1\AppData\Roaming\npm-cache\npmcrazyair\1.0.0\package.tgz
+14 verbose folder c:\Users\1\Desktop\npm\npmCrazyAir
+15 verbose addLocalTarball adding from inside cache C:\Users\1\AppData\Roaming\npm-cache\npmcrazyair\1.0.0\package.tgz
+16 verbose correctMkdir C:\Users\1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd npmcrazyair@1.0.0
+18 verbose afterAdd C:\Users\1\AppData\Roaming\npm-cache\npmcrazyair\1.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\1\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\1\AppData\Roaming\npm-cache\npmcrazyair\1.0.0\package\package.json written
+21 silly publish { name: 'npmcrazyair',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'hhh',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/qq645381995/npmCrazyAir.git' },
+21 silly publish   keywords: [ 'demo' ],
+21 silly publish   author: { name: 'dmeo' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/qq645381995/npmCrazyAir/issues' },
+21 silly publish   homepage: 'https://github.com/qq645381995/npmCrazyAir#readme',
+21 silly publish   readme: '# npmCrazyAir',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'd4f2b9332ca101356e8ab5df77df16d9889d11d0',
+21 silly publish   _id: 'npmcrazyair@1.0.0',
+21 silly publish   _shasum: '9734fb074523fc7a798229506955fbe5f5cb2dce',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name npmcrazyair
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npm.taobao.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'npmcrazyair',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'npmcrazyair',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npm.taobao.org/npmcrazyair
+28 verbose publish registryBase https://registry.npm.taobao.org/
+29 silly publish uploading C:\Users\1\AppData\Roaming\npm-cache\npmcrazyair\1.0.0\package.tgz
+30 verbose request uri https://registry.npm.taobao.org/npmcrazyair
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 15:45:10
+33 verbose request id 7f415887ddd58bad
+34 http request PUT https://registry.npm.taobao.org/npmcrazyair
+35 http 403 https://registry.npm.taobao.org/npmcrazyair
+36 verbose headers { date: 'Thu, 30 Jun 2016 07:45:10 GMT',
+36 verbose headers   'content-type': 'application/json; charset=utf-8',
+36 verbose headers   'content-length': '87',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-readtime': '7' }
+37 verbose request invalidating C:\Users\1\AppData\Roaming\npm-cache\registry.npm.taobao.org\npmcrazyair on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: no_perms Private mode enable, only admin can publish this module: npmcrazyair
+39 verbose stack     at makeError (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+39 verbose stack     at Request._callback (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+39 verbose stack     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+39 verbose stack     at emitTwo (events.js:100:13)
+39 verbose stack     at Request.emit (events.js:185:7)
+39 verbose stack     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+39 verbose stack     at emitOne (events.js:95:20)
+39 verbose stack     at Request.emit (events.js:182:7)
+39 verbose stack     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+40 verbose statusCode 403
+41 verbose pkgid npmcrazyair
+42 verbose cwd c:\Users\1\Desktop\npm\npmCrazyAir
+43 error Windows_NT 10.0.14376
+44 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "hhh@0.1.0"
+45 error node v5.10.1
+46 error npm  v3.8.3
+47 error code E403
+48 error no_perms Private mode enable, only admin can publish this module: npmcrazyair
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
