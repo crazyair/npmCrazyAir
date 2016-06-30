@@ -2,8 +2,7 @@
 1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'publish',
-1 verbose cli   '--tag',
-1 verbose cli   'hhh@0.1.0' ]
+1 verbose cli   '.' ]
 2 info using npm@3.8.3
 3 info using node@v5.10.1
 4 verbose publish [ '.' ]
@@ -45,7 +44,7 @@
 21 silly publish   homepage: 'https://github.com/qq645381995/npmCrazyAir#readme',
 21 silly publish   readme: '# npmCrazyAir',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: 'd4f2b9332ca101356e8ab5df77df16d9889d11d0',
+21 silly publish   gitHead: '098efede338bf1e2640b4f71458265fc65ca177a',
 21 silly publish   _id: 'npmcrazyair@1.0.0',
 21 silly publish   _shasum: '9734fb074523fc7a798229506955fbe5f5cb2dce',
 21 silly publish   _from: '.' }
@@ -65,15 +64,15 @@
 29 silly publish uploading C:\Users\1\AppData\Roaming\npm-cache\npmcrazyair\1.0.0\package.tgz
 30 verbose request uri https://registry.npm.taobao.org/npmcrazyair
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 15:45:10
-33 verbose request id 7f415887ddd58bad
+32 info attempt registry request try #1 at 15:46:40
+33 verbose request id 9bd95c5346638725
 34 http request PUT https://registry.npm.taobao.org/npmcrazyair
 35 http 403 https://registry.npm.taobao.org/npmcrazyair
-36 verbose headers { date: 'Thu, 30 Jun 2016 07:45:10 GMT',
+36 verbose headers { date: 'Thu, 30 Jun 2016 07:46:44 GMT',
 36 verbose headers   'content-type': 'application/json; charset=utf-8',
 36 verbose headers   'content-length': '87',
 36 verbose headers   connection: 'keep-alive',
-36 verbose headers   'x-readtime': '7' }
+36 verbose headers   'x-readtime': '12' }
 37 verbose request invalidating C:\Users\1\AppData\Roaming\npm-cache\registry.npm.taobao.org\npmcrazyair on PUT
 38 error publish Failed PUT 403
 39 verbose stack Error: no_perms Private mode enable, only admin can publish this module: npmcrazyair
@@ -91,7 +90,7 @@
 41 verbose pkgid npmcrazyair
 42 verbose cwd c:\Users\1\Desktop\npm\npmCrazyAir
 43 error Windows_NT 10.0.14376
-44 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "hhh@0.1.0"
+44 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "."
 45 error node v5.10.1
 46 error npm  v3.8.3
 47 error code E403
